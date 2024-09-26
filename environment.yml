@@ -1,0 +1,38 @@
+name: pfe-dron
+channels:
+  - RoboStack
+  - conda-forge
+dependencies:
+  - python=3.9
+  - pip=24.2
+  - bullet=2.89
+  - libgz-transport13
+  - gz-transport13-python
+  - gz-msgs10
+  - gazebo
+  - wxpython
+  - cmake
+  - py-opencv
+  - pip:
+    - protobuf
+    - wheel
+    - pexpect
+    - future
+    - scipy
+    - lxml
+    - pymavlink
+    - MAVProxy
+    - pexpect
+    - argparse
+    - matplotlib
+    - pyparsing
+    - geocoder
+    - pyserial
+    - empy==3.3.4
+    - dronecan
+    - packaging
+    - setuptools
+    - six
+    - gobject
+    - cmake
+    - dronekit
