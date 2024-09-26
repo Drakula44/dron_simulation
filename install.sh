@@ -43,8 +43,9 @@ cd gz-msgs
 if [ -d "python-proto" ]; then
     rm -rf python-proto
 fi
+git checkout ign-msgs8
 mkdir python-proto
-protoc -I=proto --python_out=python-proto proto/ignition/msgs/*.proto
+protoc -I=proto --python_out=python-proto proto/ignition/msgs/*
 export PYTHONPATH=$PYTHONPATH:$PWD/python-proto
 cd ..
 
