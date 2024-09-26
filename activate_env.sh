@@ -1,5 +1,5 @@
 conda activate pfe-dron
-export CONDA_ENV_PATH=~/miniconda/envs/pfe-dron
+export CONDA_ENV_PATH=~/miniconda3/envs/pfe-dron
 chmod +x $CONDA_ENV_PATH/share/gazebo/setup.sh
 source $CONDA_ENV_PATH/share/gazebo/setup.sh
 export PYTHONPATH="${PYTHONPATH}:$HOME/pfe-dron/gz-msgs/python-proto"

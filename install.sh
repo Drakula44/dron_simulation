@@ -2,8 +2,8 @@
 
 conda env create
 conda activate pfe-dron
-export CONDA_ENV_PATH=$HOME/miniconda/envs/pfe-dron
-export PKG_CONFIG_PATH=$PKG_CONFIG_PATH:$CONDA_ENV_PATH/lib/pkgconfig/
+export CONDA_ENV_PATH=$HOME/miniconda3/envs/pfe-dron
+export PKG_CONFIG_PATH=$PKG_CONFIG_PATH:$CONDA_ENV_PATH/lib/pkgconfig
 # check if ardupilot is cloned
 if [ -d "ardupilot" ]; then
     echo "ardupilot is already cloned"
