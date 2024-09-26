@@ -3,6 +3,7 @@
 ## Instalation
 
 ```sh
+sudo apt install g++ make pkg-config tmux
 source install.sh
 ```
 
